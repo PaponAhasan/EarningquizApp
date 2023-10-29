@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EarningQuizApp</string>
+    <string-array name="subjects">
+        <item>Science</item>
+        <item>Math</item>
+        <item>English</item>
+        <item>History</item>
+    </string-array>
+</resources>
+
+

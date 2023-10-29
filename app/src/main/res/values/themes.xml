@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EarningQuizApp" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#545CDF</item>
+    </style>
+
+    <style name="Theme.EarningQuizApp" parent="Base.Theme.EarningQuizApp" />
+
+    <style name="ToolbarColoredBackArrow" parent="Theme.Material3.DayNight">
+        <item name="android:background">#545CDF</item>
+        <item name="android:textColorSecondary">#FFFFFF</item>
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="iconTint">#4CAF50</item>
+    </style>
+
+</resources>

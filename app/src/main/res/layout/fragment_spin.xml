@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".fragments.SpinFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvPointText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Left Chance : "
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/tvPointText"
+            app:layout_constraintStart_toEndOf="@+id/tvPointText"
+            app:layout_constraintTop_toTopOf="@+id/tvPointText" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivSpin"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_spin"
+            app:layout_constraintBottom_toTopOf="@+id/btnSpin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPointText" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivSpinRange"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_spin_range"
+            app:layout_constraintBottom_toBottomOf="@+id/ivSpin"
+            app:layout_constraintEnd_toEndOf="@+id/ivSpin"
+            app:layout_constraintStart_toStartOf="@+id/ivSpin"
+            app:layout_constraintTop_toTopOf="@+id/ivSpin"
+            app:layout_constraintVertical_bias="0.24000001" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivSpinStoper"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_spin_stoper"
+            app:layout_constraintBottom_toBottomOf="@+id/ivSpinRange"
+            app:layout_constraintEnd_toEndOf="@+id/ivSpinRange"
+            app:layout_constraintStart_toStartOf="@+id/ivSpinRange"
+            app:layout_constraintTop_toTopOf="@+id/ivSpinRange" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSpin"
+            android:layout_width="150dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#BFFFFFFF"
+            android:text="Spin"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivSpin" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

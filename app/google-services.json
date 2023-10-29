@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "204515924213",
+    "project_id": "earningquizapp-6b32a",
+    "storage_bucket": "earningquizapp-6b32a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204515924213:android:d857a341bcec73c2638dbc",
+        "android_client_info": {
+          "package_name": "com.example.earningquizapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaTYmKrBTWZm2eeERFMaogC2ZCGX6m9OM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
